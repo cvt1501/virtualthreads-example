@@ -10,7 +10,6 @@ public final class GenericMemoryRepository<T> {
 
     private final Map<String, T> data = new ConcurrentHashMap<>();
 
-
     private GenericMemoryRepository() {}
 
     @SuppressWarnings("unchecked")
